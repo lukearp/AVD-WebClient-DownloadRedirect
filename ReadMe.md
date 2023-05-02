@@ -10,7 +10,7 @@ Saving files directly to the Downloads folder redirect isn't supported.  This ca
 
 # What does this do?
 
-LogonScript-Folder-Move.ps1 would be configured as a Logon Script on the session hosts.  Once users login to the host, it attempts to map the RDWebClient Redirect download directory to a PSDrive and creates a folder within the users profile.  The script runs a check on that created folder every five seconds.  If a file is writen to the directory, the script moves the file to the mapped PSDrive.  This triggers the download on the remote browser.  
+LogonScript-Folder-Move.ps1 would be configured as a Logon Script on the session hosts.  Once users login to the host, it attempts to map the RDWebClient Redirect download directory to a PSDrive and creates a folder within the users profile.  The script runs a check on that created folder every five seconds.  If a file is written to the directory, the script moves the file to the mapped PSDrive.  This triggers the download on the remote browser.  
 
 # Setup
 
