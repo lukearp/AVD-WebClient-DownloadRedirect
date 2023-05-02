@@ -3,6 +3,7 @@
 This is to work around a compatability issue with the Azure Virtual Desktop Web Client File Sharing:
 
 [Copy and paste from the Remote Desktop web client](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-web-client#transfer-files-with-the-web-client):
+
     The web client currently supports copying and pasting text only. Files can't be copied or pasted to and from the web client. Additionally, you can only use Ctrl+C and Ctrl+V to copy and paste text.
 
 Saving files directly to the Downloads folder redirect isn't supported.  This can be an issue from remote apps not having access to a full file explorer to copy and paste files.
