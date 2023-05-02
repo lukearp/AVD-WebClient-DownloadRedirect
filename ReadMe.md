@@ -23,6 +23,7 @@ $sourcePath = "$($env:USERPROFILE)\Downloads\WebClient"
 $credUserName = "localadmin"
 # End to Variables to Set #
 ```
+You will want your $sourcePath to be located within the users writeable profile.  
 
 Create a password.txt file to save your password for a Local Admin account:
 
